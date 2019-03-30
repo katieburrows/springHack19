@@ -33,36 +33,55 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
-		<div class="container">
-			<nav class="navbar navbar-expand-md navbar-light bg-light">
-			<a class="navbar-brand" href="#">Team 2!</a>
-		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
+		
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="createPost.html">Create Post</a>
-				</li>
-			</ul>
-			</div>
-			</nav>
-
-		<main>
-    		<div class="row">
-    			<ul>
-    				<li>Post a code snippet!</li>
-    				<li>Comment on a code snippet!</li>
-    				<li>Don't read the comments?</li>
-    				<li>Profit!</li>
-    			</ul>
-    		</div>
-    	</main>
     </div>
+
+
+    <div class="container">
+
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<a class="navbar-brand" href="#">Team 2!</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Create Post</a>
+			</li>
+		</ul>
+		</div>
+		</nav>
+
+	<main>
+		<h1>Create a Post</h1>
+		<form>
+			<div class="form-group">
+				<label for="enterTitle">Enter Title</label>
+				<input class="form-control" type="text" id="enterTitle">
+			</div>
+			<div class="form-group">
+				<label for="enterSnippet">Enter code snippet</label>
+				<textarea class="form-control" id="enterSnippet" rows="3"></textarea>
+			</div>
+			<div class="row align-items-center">
+				<div class="form-group col-md-8">
+					<label for="enterName">Enter Name</label>
+					<input class="form-control" type="text" id="enterName" placeholder="developerName">
+				</div>
+				<div class="col-md-4">
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</form>
+    </main>
+    </div>
+
 
     <!-- Bootstrap JavaScript Stuff -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
