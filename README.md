@@ -11,4 +11,4 @@ User Story:
 9. As a developer, I can edit or delete my code snippets
 10. As a contributor, I can edit or delete my comments
 
-We are using JavaScript, Node.js, React.js, and MySQL technologies
+We are using JavaScript, Node.js, bootstrap, React.js, express.js, and MySQL technologies
